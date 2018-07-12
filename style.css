@@ -1,0 +1,54 @@
+   body {
+            font-family: Helvetica, Arial, sans-serif; 
+            background: #4dfed3;
+        }
+        .container{
+            text-align: center;
+            margin: 7% 0 0 25%;
+            background: #fff;
+            border-radius: 10px;
+            width: 50%;
+            padding:1%;
+        }
+        h2{
+            font-family: 'Roboto', sans-serif;
+            font-weight:50;
+            font-size: 2.6em;
+            margin-top:1%;
+        }
+        #time{
+            font-weight: bold;
+            background: rgb(144, 212, 214);
+            padding:0%
+        }
+        #hours,#minutes,#seconds{
+            font-size:22pt;
+            padding:0%;
+            background: rgb(144, 212, 214);
+        }
+        button{   
+            color:rgb(8, 8, 8);
+            font-weight:bold;
+            border: solid 2px #ccc;
+            cursor:pointer;
+            font-size: 15pt;
+            padding:12px 10px;
+            width:120px;
+            margin:1% 0 1% 0;
+            border-radius: 10px;
+        }
+        #btnStart{
+            background: green;
+        }
+        #btnPause{
+            background: rgba(251, 255, 0, 0.61);
+        }
+        #btnContinue{
+            background: yellowgreen;
+        }
+        #btnStop{
+            background: rgb(233, 91, 91);
+        }
+        #btnReset{
+            background: rgb(220, 95, 0);
+        }
